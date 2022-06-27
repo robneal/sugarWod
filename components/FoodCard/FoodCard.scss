@@ -1,0 +1,77 @@
+.FoodCard{
+    border-radius: 8px;
+    background: #ffca00;
+    padding: 15px;
+    max-width: 280px;
+    width: 100%;
+    cursor: pointer;
+
+
+    &__header{
+        display: flex;
+        justify-content: space-between;
+
+        // &-column{
+        //     display: flex;
+        //     flex-direction: column;
+            & p{
+                margin: 0px;
+                font-size: 10px;
+                margin-bottom: 3px;
+                font-weight: 300;
+                color: #555555;
+            }
+        //}
+    }
+
+    & h3{
+        font-weight: 400;
+        font-size: 16px;
+        padding: 20px;
+        margin: 0px;
+    }
+
+    &--full{
+        border-radius: 8px;
+        background: #ffca00;
+        padding: 15px;
+        width: 100%;
+        cursor: pointer;
+
+        & .FoodCard__header{
+            display: flex;
+            justify-content: flex-end;
+            gap: 20px; 
+    
+                & p{
+                    margin: 0px;
+                    font-size: 10px;
+                    margin-bottom: 3px;
+                    font-weight: 300;
+                    color: #555555;
+                }
+        }
+
+        & h3{
+            font-size: 16px;
+            padding: 20px;
+            margin: 0px;
+            font-weight: 300;
+            text-transform: lowercase;
+        }
+
+        & > label {
+            padding: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        & > p {
+            padding: 10px 20px;
+            text-transform: lowercase;
+            font-weight: 200;
+            font-size: 14px;
+            line-height: 24px;
+            margin: 0px;
+        }
+    }
+}

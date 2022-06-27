@@ -1,0 +1,49 @@
+.FoodDetail{
+    &__link{
+        color: #0069c2;
+        font-size: 12px;
+    }
+
+    &__title{
+        text-align: left;
+        font-size: 28px;
+        max-width: 600px;
+        line-height: 38px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
+    &__statsList{
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+        margin-bottom: 60px;
+    }
+    &__stat{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+
+
+        & label{
+            color: #767676;
+            font-size: 14px;
+            font-weight: 400;
+        
+        }
+
+        & p{
+            margin: 5px 0px;
+            font-size: 30px;
+        }
+    }
+
+    &__button{
+        padding: 20px;
+        border-radius: 8px;
+        border: none;
+        background: #ffca00;
+        cursor: pointer;
+        font-weight: 500;
+    }
+}
